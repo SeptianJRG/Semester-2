@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21_pin.ucf -p xc3s200-ft256-4 "mux21.ngc" mux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21_map.ncd mux21.ngd mux21.pcf 
+par -w -intstyle ise -ol high -t 1 mux21_map.ncd mux21.ncd mux21.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21.twx mux21.ncd -o mux21.twr mux21.pcf -ucf mux21_pin.ucf 
+bitgen -intstyle ise -f mux21.ut mux21.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.xst" -ofn "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21_pin.ucf -p xc3s200-ft256-4 "mux21.ngc" mux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21_map.ncd mux21.ngd mux21.pcf 
+par -w -intstyle ise -ol high -t 1 mux21_map.ncd mux21.ncd mux21.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21.twx mux21.ncd -o mux21.twr mux21.pcf -ucf mux21_pin.ucf 
+bitgen -intstyle ise -f mux21.ut mux21.ncd 

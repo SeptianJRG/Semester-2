@@ -1,0 +1,6 @@
+AR projecttop projecttop "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" sub00/vhpl05 1653024333
+AR x7segb_top projecttop "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" sub00/vhpl03 1653019625
+AR x7segb x7seg "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/x7seg.vhd" sub00/vhpl02 1653024331
+EN x7segb_top NULL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" sub00/vhpl00 1653019624
+EN projecttop NULL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" sub00/vhpl04 1653024332
+EN x7segb NULL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/x7seg.vhd" sub00/vhpl01 1653024330

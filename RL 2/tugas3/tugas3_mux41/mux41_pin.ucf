@@ -1,0 +1,9 @@
+NET i(0) LOC = F12;
+NET i(1) LOC = G12;
+NET i(2) LOC = H14;
+NET i(3) LOC = H13;
+
+NET s(0) LOC = M13;
+NET s(1) LOC = M14;
+
+NET y LOC = K12;

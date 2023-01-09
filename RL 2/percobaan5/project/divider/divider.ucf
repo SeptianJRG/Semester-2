@@ -1,0 +1,23 @@
+NET numer(7) LOC=K13;
+NET numer(6) LOC=K14;
+NET numer(5) LOC=J13;
+NET numer(4) LOC=J14;
+NET numer(3) LOC=H13;
+NET numer(2) LOC=H14;
+NET numer(1) LOC=G12;
+NET numer(0) LOC=F12;
+
+NET denom(3) LOC=L14;
+NET denom(2) LOC=L13;
+NET denom(1) LOC=M14;
+NET denom(0) LOC=M13;
+
+NET remainder(3) LOC=P11;
+NET remainder(2) LOC=P12;
+NET remainder(1) LOC=N12;
+NET remainder(0) LOC=P13;
+
+NET quotient(3) LOC=N14;
+NET quotient(2) LOC=L12;
+NET quotient(1) LOC=P14;
+NET quotient(0) LOC=K12;

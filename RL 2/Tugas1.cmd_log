@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+netgen -intstyle ise -ar Structure -tm Tugas1 -w -dir netgen/synthesis -ofmt vhdl -sim Tugas1.ngc Tugas1_synthesis.vhd 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "Tugas1.ngc" Tugas1.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o Tugas1_map.ncd Tugas1.ngd Tugas1.pcf 
+par -w -intstyle ise -ol high -t 1 Tugas1_map.ncd Tugas1.ncd Tugas1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Tugas1.twx Tugas1.ncd -o Tugas1.twr Tugas1.pcf 
+bitgen -intstyle ise -f Tugas1.ut Tugas1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tugas1pin.ucf -p xc3s200-ft256-4 "Tugas1.ngc" Tugas1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tugas1pin.ucf -p xc3s200-ft256-4 "Tugas1.ngc" Tugas1.ngd  
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tugas1pin.ucf -p xc3s200-ft256-4 "Tugas1.ngc" Tugas1.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o Tugas1_map.ncd Tugas1.ngd Tugas1.pcf 
+par -w -intstyle ise -ol high -t 1 Tugas1_map.ncd Tugas1.ncd Tugas1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Tugas1.twx Tugas1.ncd -o Tugas1.twr Tugas1.pcf -ucf Tugas1pin.ucf 
+bitgen -intstyle ise -f Tugas1.ut Tugas1.ncd 
+bitgen -intstyle ise -f Tugas1.ut Tugas1.ncd 
+xst -intstyle ise -ifn "D:/SMT 2/RL 2/Tugas1.xst" -ofn "D:/SMT 2/RL 2/Tugas1.syr" 

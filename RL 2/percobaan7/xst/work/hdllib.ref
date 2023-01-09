@@ -1,0 +1,12 @@
+EN hex7segb NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7segb.vhd" sub00/vhpl03 1652408880
+AR hex7seg_top hex7seg_top "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg_top.vhd" sub00/vhpl05 1652408883
+EN x7seg NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg.vhd" sub00/vhpl08 1653014764
+EN hex7seg NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg.vhd" sub00/vhpl00 1652407438
+EN mux7seg_top NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/mux7seg_top.vhd" sub00/vhpl06 1652413142
+EN x7seg_top NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg_top.vhd" sub00/vhpl10 1653014766
+AR mux7seg_top mux7seg "D:/Kuliah/SMT 2/RL 2/percobaan7/mux7seg_top.vhd" sub00/vhpl07 1652413143
+AR x7seg_top x7seg_top "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg_top.vhd" sub00/vhpl11 1653014767
+EN hex7seg_top NULL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg_top.vhd" sub00/vhpl02 1652408882
+AR hex7seg hex7seg_le "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg.vhd" sub00/vhpl01 1652407439
+AR hex7segb hex7segb "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7segb.vhd" sub00/vhpl04 1652408881
+AR x7seg x7seg "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg.vhd" sub00/vhpl09 1653014765

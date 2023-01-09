@@ -1,0 +1,13 @@
+V3 6
+FL "D:/Kuliah/SMT 2/RL 2/tugas3/tugas3_mux41/mux41.vhd" 2022/05/13.14:34:48 P.58f
+EN work/mux41 1652427296 FL "D:/Kuliah/SMT 2/RL 2/tugas3/tugas3_mux41/mux41.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux41/Behavioral 1652427297 \
+      FL "D:/Kuliah/SMT 2/RL 2/tugas3/tugas3_mux41/mux41.vhd" EN work/mux41 1652427296
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41.vhd" 2022/05/13.13:30:11 P.58f
+EN work/mux41b 1652423605 \
+      FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux41b/Behavioral 1652423606 \
+      FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41.vhd" \
+      EN work/mux41b 1652423605

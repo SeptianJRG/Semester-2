@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21_isim_beh.exe" -prj "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21_beh.prj" "work.demux21" 

@@ -1,0 +1,7 @@
+NET a LOC = F12;
+NET b LOC = G12;
+NET y(0) LOC = K12;
+NET y(1) LOC = P14;
+NET y(2) LOC = L12;
+NET y(3) LOC = N14;
+NET y(4) LOC = P13;

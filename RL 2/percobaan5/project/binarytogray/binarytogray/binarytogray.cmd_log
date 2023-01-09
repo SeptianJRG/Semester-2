@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytogray/binarytogray/binarytogray.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytogray/binarytogray/binarytogray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "binarytogray.ngc" binarytogray.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o binarytogray_map.ncd binarytogray.ngd binarytogray.pcf 
+par -w -intstyle ise -ol high -t 1 binarytogray_map.ncd binarytogray.ncd binarytogray.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binarytogray.twx binarytogray.ncd -o binarytogray.twr binarytogray.pcf 
+bitgen -intstyle ise -f binarytogray.ut binarytogray.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytogray/binarytogray/binarytogray.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytogray/binarytogray/binarytogray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarytogray.ucf -p xc3s200-ft256-4 "binarytogray.ngc" binarytogray.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o binarytogray_map.ncd binarytogray.ngd binarytogray.pcf 
+par -w -intstyle ise -ol high -t 1 binarytogray_map.ncd binarytogray.ncd binarytogray.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binarytogray.twx binarytogray.ncd -o binarytogray.twr binarytogray.pcf -ucf binarytogray.ucf 
+bitgen -intstyle ise -f binarytogray.ut binarytogray.ncd 

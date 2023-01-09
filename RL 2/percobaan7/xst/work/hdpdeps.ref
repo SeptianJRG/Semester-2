@@ -1,0 +1,33 @@
+V3 20
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg.vhd" 2022/05/13.09:00:22 P.58f
+EN work/hex7seg 1652407438 FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/hex7seg/hex7seg_le 1652407439 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg.vhd" EN work/hex7seg 1652407438
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7segb.vhd" 2022/05/13.09:02:36 P.58f
+EN work/hex7segb 1652408880 FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7segb.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/hex7segb/hex7segb 1652408881 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7segb.vhd" EN work/hex7segb 1652408880
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg_top.vhd" 2022/05/13.09:27:52 P.58f
+EN work/hex7seg_top 1652408882 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg_top.vhd" PB ieee/std_logic_1164 1364358218
+AR work/hex7seg_top/hex7seg_top 1652408883 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/hex7seg_top.vhd" EN work/hex7seg_top 1652408882 \
+      CP hex7segb
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/mux7seg_top.vhd" 2022/05/13.10:38:55 P.58f
+EN work/mux7seg_top 1652413142 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/mux7seg_top.vhd" PB ieee/std_logic_1164 1364358218
+AR work/mux7seg_top/mux7seg 1652413143 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/mux7seg_top.vhd" EN work/mux7seg_top 1652413142
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg.vhd" 2022/05/20.09:00:47 P.58f
+EN work/x7seg 1653014764 FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/x7seg/x7seg 1653014765 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg.vhd" EN work/x7seg 1653014764
+FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg_top.vhd" 2022/05/20.09:45:54 P.58f
+EN work/x7seg_top 1653014766 FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg_top.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/x7seg_top/x7seg_top 1653014767 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan7/x7seg_top.vhd" EN work/x7seg_top 1653014766 \
+      CP x7seg

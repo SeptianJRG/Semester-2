@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Tugas\Lab7c2\x7segb.ncd
+OUTFILE=E:\Tugas\Lab7c2\x7segb.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=E:\Tugas\Lab7c2
+LICENSE=WebPack
+USER_INFO=211653567_0_0_918

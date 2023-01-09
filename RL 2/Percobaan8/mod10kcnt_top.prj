@@ -1,0 +1,5 @@
+vhdl work "x7segbc.vhd"
+vhdl work "mod10kcnt.vhd"
+vhdl work "clkdiv.vhd"
+vhdl work "binBCD14.vhd"
+vhdl work "Mod10kcnt_top.vhd"

@@ -1,0 +1,17 @@
+NET b(7) LOC=K13;
+NET b(6) LOC=K14;
+NET b(5) LOC=J13;
+NET b(4) LOC=J14;
+NET b(3) LOC=H13;
+NET b(2) LOC=H14;
+NET b(1) LOC=G12;
+NET b(0) LOC=F12;
+
+NET bcd(7) LOC=P11;
+NET bcd(6) LOC=P12;
+NET bcd(5) LOC=N12;
+NET bcd(4) LOC=P13;
+NET bcd(3) LOC=N14;
+NET bcd(2) LOC=L12;
+NET bcd(1) LOC=P14;
+NET bcd(0) LOC=K12;

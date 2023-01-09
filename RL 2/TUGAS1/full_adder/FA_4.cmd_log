@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/full_adder/FA_4.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/full_adder/FA_4.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.xst" -ofn "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "FA_4.ngc" FA_4.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o FA_4_map.ncd FA_4.ngd FA_4.pcf 
+par -w -intstyle ise -ol high -t 1 FA_4_map.ncd FA_4.ncd FA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA_4.twx FA_4.ncd -o FA_4.twr FA_4.pcf 
+bitgen -intstyle ise -f FA_4.ut FA_4.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.xst" -ofn "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA_4.ucf -p xc3s200-ft256-4 "FA_4.ngc" FA_4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA_4.ucf -p xc3s200-ft256-4 "FA_4.ngc" FA_4.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o FA_4_map.ncd FA_4.ngd FA_4.pcf 
+par -w -intstyle ise -ol high -t 1 FA_4_map.ncd FA_4.ncd FA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA_4.twx FA_4.ncd -o FA_4.twr FA_4.pcf -ucf FA_4.ucf 
+bitgen -intstyle ise -f FA_4.ut FA_4.ncd 

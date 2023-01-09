@@ -1,0 +1,19 @@
+Running: E:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21_isim_beh.exe -prj E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21_beh.prj work.demux21 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12b.vhd" into library work
+Parsing VHDL file "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" into library work
+ERROR:HDLCompiler:374 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 11: Entity <demux21> is not yet compiled.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 13: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 14: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 15: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 16: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 20: <sw> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 21: <btn> is not declared.
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 22: <led> is not declared.
+ERROR:HDLCompiler:192 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 22: Actual of formal out port o1 cannot be an expression
+ERROR:HDLCompiler:69 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 23: <led> is not declared.
+ERROR:HDLCompiler:192 - "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" Line 23: Actual of formal out port o2 cannot be an expression
+VHDL file E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd ignored due to errors

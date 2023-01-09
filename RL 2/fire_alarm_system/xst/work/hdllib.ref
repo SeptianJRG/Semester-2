@@ -1,0 +1,7 @@
+AR clkdiv behavioral "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/clkdiv.vhd" sub00/vhpl03 1654832577
+EN fire_alarm NULL "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/fire_alarm.vhd" sub00/vhpl00 1654832580
+AR x7segb x7seg "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/x7segb.vhd" sub00/vhpl06 1654832579
+EN clkdiv NULL "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/clkdiv.vhd" sub00/vhpl02 1654832576
+AR fire_alarm behavioral "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/fire_alarm.vhd" sub00/vhpl04 1654832581
+EN x7segb NULL "D:/Kuliah/SMT 2/RL 2/fire_alarm_system/x7segb.vhd" sub00/vhpl05 1654832578
+EN fire_als1 NULL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/FSM Project/fire_alarm_system/fire_alarm.vhd" sub00/vhpl01 1654827123

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Kuliah\SMT 2\RL 2\TUGAS2\tugas2_demux12\demux21.ncd
+OUTFILE=D:\Kuliah\SMT 2\RL 2\TUGAS2\tugas2_demux12\demux21.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=D:\Kuliah\SMT 2\RL 2\TUGAS2\tugas2_demux12
+LICENSE=WebPack
+USER_INFO=211653567_0_0_918

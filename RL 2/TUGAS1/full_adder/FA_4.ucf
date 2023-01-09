@@ -1,0 +1,18 @@
+NET a(0) LOC = F12;
+NET a(1) LOC = G12;
+NET a(2) LOC = H14;
+NET a(3) LOC = H13;
+
+NET b(0) LOC = J14;
+NET b(1) LOC = J13;
+NET b(2) LOC = K14;
+NET b(3) LOC = K13;
+
+NET cin LOC = M13;
+
+NET sum(0) LOC = K12;
+NET sum(1) LOC = P14;
+NET sum(2) LOC = L12;
+NET sum(3) LOC = N14;
+
+NET cout LOC = P11;

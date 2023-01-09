@@ -1,0 +1,113 @@
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s200-ft256-4 "mod10kcnt_top.ngc" mod10kcnt_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mod10kcnt_top_map.ncd mod10kcnt_top.ngd mod10kcnt_top.pcf 
+par -w -intstyle ise -ol high -t 1 mod10kcnt_top_map.ncd mod10kcnt_top.ncd mod10kcnt_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod10kcnt_top.twx mod10kcnt_top.ncd -o mod10kcnt_top.twr mod10kcnt_top.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f mod10kcnt_top.ut mod10kcnt_top.ncd 

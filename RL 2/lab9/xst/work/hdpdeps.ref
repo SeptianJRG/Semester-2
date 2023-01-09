@@ -1,0 +1,18 @@
+V3 12
+FL "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" 2022/06/03.09:37:20 P.58f
+EN work/clkdiv 1654227125 FL "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/clkdiv/Behavioral 1654227126 \
+      FL "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" EN work/clkdiv 1654227125
+FL "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" 2022/06/03.10:31:55 P.58f
+EN work/traffic 1654227129 FL "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/traffic/Behavioral 1654227130 \
+      FL "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" EN work/traffic 1654227129 \
+      CP clkdiv CP x7segb
+FL "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" 2022/06/03.10:27:51 P.58f
+EN work/x7segb 1654227127 FL "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/x7segb/x7seg 1654227128 \
+      FL "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" EN work/x7segb 1654227127
+FL E:/Tugas/lab9/traffic.vhd 2022/06/03.08:32:05 P.58f

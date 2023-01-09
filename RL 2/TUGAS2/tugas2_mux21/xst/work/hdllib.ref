@@ -1,0 +1,4 @@
+AR mux21 behavioral "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.vhd" sub00/vhpl03 1652414521
+AR mux21b behavioral "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21b.vhd" sub00/vhpl01 1652414519
+EN mux21b NULL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21b.vhd" sub00/vhpl00 1652414518
+EN mux21 NULL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.vhd" sub00/vhpl02 1652414520

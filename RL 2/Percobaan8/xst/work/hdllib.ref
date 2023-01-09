@@ -1,0 +1,10 @@
+AR binbcd14 behavioral "D:/Kuliah/SMT 2/RL 2/Percobaan8/binBCD14.vhd" sub00/vhpl05 1653623900
+EN mod10kcnt_top NULL "D:/Kuliah/SMT 2/RL 2/Percobaan8/Mod10kcnt_top.vhd" sub00/vhpl08 1653623903
+AR clkdiv behavioral "D:/Kuliah/SMT 2/RL 2/Percobaan8/clkdiv.vhd" sub00/vhpl01 1653623896
+AR mod10kcnt behavioral "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.vhd" sub00/vhpl03 1653623898
+AR mod10kcnt_top behavioral "D:/Kuliah/SMT 2/RL 2/Percobaan8/Mod10kcnt_top.vhd" sub00/vhpl09 1653623904
+EN clkdiv NULL "D:/Kuliah/SMT 2/RL 2/Percobaan8/clkdiv.vhd" sub00/vhpl00 1653623895
+EN mod10kcnt NULL "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.vhd" sub00/vhpl02 1653623897
+EN binbcd14 NULL "D:/Kuliah/SMT 2/RL 2/Percobaan8/binBCD14.vhd" sub00/vhpl04 1653623899
+AR x7segbc behavioral "D:/Kuliah/SMT 2/RL 2/Percobaan8/x7segbc.vhd" sub00/vhpl07 1653623902
+EN x7segbc NULL "D:/Kuliah/SMT 2/RL 2/Percobaan8/x7segbc.vhd" sub00/vhpl06 1653623901

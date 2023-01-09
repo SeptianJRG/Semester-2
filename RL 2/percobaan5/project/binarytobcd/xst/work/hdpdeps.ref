@@ -1,0 +1,8 @@
+V3 3
+FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytobcd/binarytobcd.vhd" 2022/04/22.09:39:07 P.58f
+EN work/binarytobcd 1650595161 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytobcd/binarytobcd.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/binarytobcd/Behavioral 1650595162 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/binarytobcd/binarytobcd.vhd" \
+      EN work/binarytobcd 1650595161

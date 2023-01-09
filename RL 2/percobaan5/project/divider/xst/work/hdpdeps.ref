@@ -1,0 +1,8 @@
+V3 3
+FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.vhd" 2022/04/22.10:47:21 P.58f
+EN work/divider 1650599247 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/divider/Behavioral 1650599248 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.vhd" \
+      EN work/divider 1650599247

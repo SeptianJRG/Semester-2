@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Kuliah\SMT 2\RL 2\percobaan5\project\binarytobcd\binarytobcd.ncd
+OUTFILE=D:\Kuliah\SMT 2\RL 2\percobaan5\project\binarytobcd\binarytobcd.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=D:\Kuliah\SMT 2\RL 2\percobaan5\project\binarytobcd
+LICENSE=WebPack
+USER_INFO=211653567_0_0_918

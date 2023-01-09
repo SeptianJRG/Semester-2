@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux21_map.ncd demux21.ngd demux21.pcf 
+par -w -intstyle ise -ol high -t 1 demux21_map.ncd demux21.ncd demux21.pcf 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux21_map.ncd demux21.ngd demux21.pcf 
+par -w -intstyle ise -ol high -t 1 demux21_map.ncd demux21.ncd demux21.pcf 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux21_map.ncd demux21.ngd demux21.pcf 
+par -w -intstyle ise -ol high -t 1 demux21_map.ncd demux21.ncd demux21.pcf 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux21_map.ncd demux21.ngd demux21.pcf 
+par -w -intstyle ise -ol high -t 1 demux21_map.ncd demux21.ncd demux21.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demux21.twx demux21.ncd -o demux21.twr demux21.pcf -ucf demux12_pin.ucf 
+bitgen -intstyle ise -f demux21.ut demux21.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux21.xst" -ofn "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demux12_pin.ucf -p xc3s200-ft256-4 "demux21.ngc" demux21.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux21_map.ncd demux21.ngd demux21.pcf 
+par -w -intstyle ise -ol high -t 1 demux21_map.ncd demux21.ncd demux21.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demux21.twx demux21.ncd -o demux21.twr demux21.pcf -ucf demux12_pin.ucf 
+bitgen -intstyle ise -f demux21.ut demux21.ncd 

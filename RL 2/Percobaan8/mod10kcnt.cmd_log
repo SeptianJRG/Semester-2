@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.syr" 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.xst" -ofn "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.syr" 

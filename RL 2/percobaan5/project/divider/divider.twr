@@ -1,0 +1,150 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf -ucf
+divider.ucf
+
+Design file:              divider.ncd
+Physical constraint file: divider.pcf
+Device,package,speed:     xc3s200,ft256,-4 (PRODUCTION 1.39 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+denom<0>       |quotient<0>    |   23.300|
+denom<0>       |quotient<1>    |   19.637|
+denom<0>       |quotient<2>    |   15.032|
+denom<0>       |quotient<3>    |   11.005|
+denom<0>       |remainder<0>   |   24.603|
+denom<0>       |remainder<1>   |   25.048|
+denom<0>       |remainder<2>   |   24.501|
+denom<0>       |remainder<3>   |   23.540|
+denom<1>       |quotient<0>    |   23.522|
+denom<1>       |quotient<1>    |   19.859|
+denom<1>       |quotient<2>    |   15.254|
+denom<1>       |quotient<3>    |   11.227|
+denom<1>       |remainder<0>   |   24.825|
+denom<1>       |remainder<1>   |   25.270|
+denom<1>       |remainder<2>   |   24.723|
+denom<1>       |remainder<3>   |   23.762|
+denom<2>       |quotient<0>    |   21.942|
+denom<2>       |quotient<1>    |   18.279|
+denom<2>       |quotient<2>    |   13.674|
+denom<2>       |quotient<3>    |    9.647|
+denom<2>       |remainder<0>   |   23.245|
+denom<2>       |remainder<1>   |   23.690|
+denom<2>       |remainder<2>   |   23.143|
+denom<2>       |remainder<3>   |   22.182|
+denom<3>       |quotient<0>    |   21.050|
+denom<3>       |quotient<1>    |   17.387|
+denom<3>       |quotient<2>    |   12.782|
+denom<3>       |quotient<3>    |    8.755|
+denom<3>       |remainder<0>   |   22.353|
+denom<3>       |remainder<1>   |   22.798|
+denom<3>       |remainder<2>   |   22.251|
+denom<3>       |remainder<3>   |   21.290|
+numer<0>       |quotient<0>    |   10.813|
+numer<0>       |remainder<0>   |   12.116|
+numer<0>       |remainder<1>   |   12.561|
+numer<0>       |remainder<2>   |   12.014|
+numer<0>       |remainder<3>   |   11.053|
+numer<1>       |quotient<0>    |   15.486|
+numer<1>       |quotient<1>    |   11.823|
+numer<1>       |remainder<0>   |   16.789|
+numer<1>       |remainder<1>   |   17.234|
+numer<1>       |remainder<2>   |   16.687|
+numer<1>       |remainder<3>   |   15.726|
+numer<2>       |quotient<0>    |   19.030|
+numer<2>       |quotient<1>    |   15.367|
+numer<2>       |quotient<2>    |   10.762|
+numer<2>       |remainder<0>   |   20.333|
+numer<2>       |remainder<1>   |   20.778|
+numer<2>       |remainder<2>   |   20.231|
+numer<2>       |remainder<3>   |   19.270|
+numer<3>       |quotient<0>    |   23.358|
+numer<3>       |quotient<1>    |   19.695|
+numer<3>       |quotient<2>    |   15.090|
+numer<3>       |quotient<3>    |   11.063|
+numer<3>       |remainder<0>   |   24.661|
+numer<3>       |remainder<1>   |   25.106|
+numer<3>       |remainder<2>   |   24.559|
+numer<3>       |remainder<3>   |   23.598|
+numer<4>       |quotient<0>    |   23.140|
+numer<4>       |quotient<1>    |   19.477|
+numer<4>       |quotient<2>    |   14.872|
+numer<4>       |quotient<3>    |   10.845|
+numer<4>       |remainder<0>   |   24.443|
+numer<4>       |remainder<1>   |   24.888|
+numer<4>       |remainder<2>   |   24.341|
+numer<4>       |remainder<3>   |   23.380|
+numer<5>       |quotient<0>    |   22.510|
+numer<5>       |quotient<1>    |   18.847|
+numer<5>       |quotient<2>    |   14.242|
+numer<5>       |quotient<3>    |   10.215|
+numer<5>       |remainder<0>   |   23.813|
+numer<5>       |remainder<1>   |   24.258|
+numer<5>       |remainder<2>   |   23.711|
+numer<5>       |remainder<3>   |   22.750|
+numer<6>       |quotient<0>    |   21.277|
+numer<6>       |quotient<1>    |   17.614|
+numer<6>       |quotient<2>    |   13.009|
+numer<6>       |quotient<3>    |    8.982|
+numer<6>       |remainder<0>   |   22.580|
+numer<6>       |remainder<1>   |   23.025|
+numer<6>       |remainder<2>   |   22.478|
+numer<6>       |remainder<3>   |   21.517|
+numer<7>       |quotient<0>    |   21.204|
+numer<7>       |quotient<1>    |   17.541|
+numer<7>       |quotient<2>    |   12.936|
+numer<7>       |quotient<3>    |    8.909|
+numer<7>       |remainder<0>   |   22.507|
+numer<7>       |remainder<1>   |   22.952|
+numer<7>       |remainder<2>   |   22.405|
+numer<7>       |remainder<3>   |   21.444|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Apr 22 10:48:01 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4473 MB
+
+
+

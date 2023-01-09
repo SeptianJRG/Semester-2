@@ -1,0 +1,15 @@
+V3 7
+FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" 2022/05/20.11:18:05 P.58f
+EN work/projecttop 1653024332 \
+      FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/std_logic_arith 1364358219
+AR work/projecttop/projecttop 1653024333 \
+      FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/projecttop.vhd" \
+      EN work/projecttop 1653024332 CP x7segb
+FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/x7seg.vhd" 2022/05/20.12:25:23 P.58f
+EN work/x7segb 1653024330 \
+      FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/x7seg.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/x7segb/x7seg 1653024331 \
+      FL "D:/Kuliah/SMT 2/RL 2/Miniproject/miniproject/x7seg.vhd" EN work/x7segb 1653024330

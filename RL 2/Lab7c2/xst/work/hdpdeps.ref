@@ -1,0 +1,14 @@
+V3 9
+FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb.vhd" 2022/05/20.09:21:15 P.58f
+EN work/x7segb 1653017189 FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/x7segb/x7seg 1653017190 \
+      FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb.vhd" EN work/x7segb 1653017189
+FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb_top.vhd" 2022/05/20.10:26:20 P.58f
+EN work/x7segb_top 1653017191 FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb_top.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/x7segb_top/x7seg_top 1653017192 \
+      FL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb_top.vhd" EN work/x7segb_top 1653017191 \
+      CP x7segb
+FL E:/Tugas/Lab7c2/x7segb.vhd 2022/05/20.09:21:15 P.58f
+FL E:/Tugas/Lab7c2/x7segb_top.vhd 2022/05/20.09:34:39 P.58f

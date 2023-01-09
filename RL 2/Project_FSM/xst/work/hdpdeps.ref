@@ -1,0 +1,6 @@
+V3 3
+FL "D:/Kuliah/SMT 2/RL 2/Project_FSM/fsm.vhd" 2022/06/10.09:26:25 P.58f
+EN work/prog 1654827996 FL "D:/Kuliah/SMT 2/RL 2/Project_FSM/fsm.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/prog/fsm 1654827997 \
+      FL "D:/Kuliah/SMT 2/RL 2/Project_FSM/fsm.vhd" EN work/prog 1654827996

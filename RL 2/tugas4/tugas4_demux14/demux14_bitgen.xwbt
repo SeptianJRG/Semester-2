@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\PENS\CE B 2021\Semester 2\Rangkaian Logika 2\Praktikum\6. Structural\project\tugas4_demux14\demux14.ncd
+OUTFILE=E:\PENS\CE B 2021\Semester 2\Rangkaian Logika 2\Praktikum\6. Structural\project\tugas4_demux14\demux14.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=E:\PENS\CE B 2021\Semester 2\Rangkaian Logika 2\Praktikum\6. Structural\project\tugas4_demux14
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,17 @@
+V3 10
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12.vhd" 2022/05/13.11:06:51 P.58f
+EN work/demux12 1652414820 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/demux21/Behavioral 1652414821 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12.vhd" EN work/demux21 1652411521 \
+      CP demux12b
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12b.vhd" 2022/05/13.10:46:42 P.58f
+EN work/demux12b 1652414818 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12b.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/demux12b/Behavioral 1652414819 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_demux12/demux12b.vhd" \
+      EN work/demux12b 1652414818
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12.vhd" 2022/05/13.10:38:44 P.58f
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_demux12/demux12b.vhd" 2022/05/13.10:46:42 P.58f

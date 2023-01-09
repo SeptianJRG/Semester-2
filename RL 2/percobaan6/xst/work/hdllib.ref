@@ -1,0 +1,6 @@
+AR mux21a behavioral "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.vhd" sub00/vhpl01 1652411093
+AR mux21top behavioral E:/Tugas/MUX21/mux21top.vhd sub00/vhpl05 1652409601
+AR mux21b behavioral E:/Tugas/MUX21/mux21b.vhd sub00/vhpl03 1652409599
+EN mux21top NULL E:/Tugas/MUX21/mux21top.vhd sub00/vhpl04 1652409600
+EN mux21a NULL "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.vhd" sub00/vhpl00 1652411092
+EN mux21b NULL E:/Tugas/MUX21/mux21b.vhd sub00/vhpl02 1652409598

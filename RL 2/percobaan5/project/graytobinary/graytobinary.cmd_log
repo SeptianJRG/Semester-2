@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/graytobinary/graytobinary.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/graytobinary/graytobinary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "graytobinary.ngc" graytobinary.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o graytobinary_map.ncd graytobinary.ngd graytobinary.pcf 
+par -w -intstyle ise -ol high -t 1 graytobinary_map.ncd graytobinary.ncd graytobinary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml graytobinary.twx graytobinary.ncd -o graytobinary.twr graytobinary.pcf 
+bitgen -intstyle ise -f graytobinary.ut graytobinary.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/graytobinary/graytobinary.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/graytobinary/graytobinary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc graytobiner.ucf -p xc3s200-ft256-4 "graytobinary.ngc" graytobinary.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o graytobinary_map.ncd graytobinary.ngd graytobinary.pcf 
+par -w -intstyle ise -ol high -t 1 graytobinary_map.ncd graytobinary.ncd graytobinary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml graytobinary.twx graytobinary.ncd -o graytobinary.twr graytobinary.pcf -ucf graytobiner.ucf 
+bitgen -intstyle ise -f graytobinary.ut graytobinary.ncd 

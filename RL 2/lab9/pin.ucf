@@ -1,0 +1,15 @@
+NET lights(0) LOC = K12;
+NET lights(1) LOC = P14;
+NET lights(2) LOC = L12;
+NET lights(3) LOC = N14;
+NET lights(4) LOC = P13;
+NET lights(5) LOC = N12;
+
+NET a_to_g(0) LOC = E14;
+NET a_to_g(1) LOC = N16;
+NET a_to_g(2) LOC = P15;
+
+NET an(0) LOC = F14;
+NET an(1) LOC = E13;
+
+NET clr LOC = M13;

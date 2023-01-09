@@ -1,0 +1,15 @@
+V3 9
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.vhd" 2022/05/13.11:01:34 P.58f
+EN work/mux21 1652414520 FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/mux21/Behavioral 1652414521 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21.vhd" EN work/mux21 1652414520 \
+      CP mux21b
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21b.vhd" 2022/05/13.09:43:29 P.58f
+EN work/mux21b 1652414518 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21b.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux21b/Behavioral 1652414519 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS2/tugas2_mux21/mux21b.vhd" EN work/mux21b 1652414518
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21.vhd" 2022/05/13.09:43:31 P.58f
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas2_mux21/mux21b.vhd" 2022/05/13.09:43:29 P.58f

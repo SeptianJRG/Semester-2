@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml x7segb_top.twx x7segb_top.ncd -o x7segb_top.twr
+x7segb_top.pcf -ucf x7segb_pin.ucf
+
+Design file:              x7segb_top.ncd
+Physical constraint file: x7segb_top.pcf
+Device,package,speed:     xc3s200,ft256,-4 (PRODUCTION 1.39 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+a_to_g<0>   |   13.644(R)|clk_BUFGP         |   0.000|
+a_to_g<1>   |   13.479(R)|clk_BUFGP         |   0.000|
+a_to_g<2>   |   13.412(R)|clk_BUFGP         |   0.000|
+a_to_g<3>   |   12.930(R)|clk_BUFGP         |   0.000|
+a_to_g<4>   |   12.627(R)|clk_BUFGP         |   0.000|
+a_to_g<5>   |   13.039(R)|clk_BUFGP         |   0.000|
+a_to_g<6>   |   13.826(R)|clk_BUFGP         |   0.000|
+an<0>       |   12.274(R)|clk_BUFGP         |   0.000|
+an<1>       |   11.409(R)|clk_BUFGP         |   0.000|
+an<2>       |   11.904(R)|clk_BUFGP         |   0.000|
+an<3>       |   11.767(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.333|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |a_to_g<0>      |   11.598|
+btn<0>         |a_to_g<1>      |   11.433|
+btn<0>         |a_to_g<2>      |   11.204|
+btn<0>         |a_to_g<3>      |   10.884|
+btn<0>         |a_to_g<4>      |   10.581|
+btn<0>         |a_to_g<5>      |   10.993|
+btn<0>         |a_to_g<6>      |   11.780|
+btn<1>         |a_to_g<0>      |   11.399|
+btn<1>         |a_to_g<1>      |   11.585|
+btn<1>         |a_to_g<2>      |   11.710|
+btn<1>         |a_to_g<3>      |   10.761|
+btn<1>         |a_to_g<4>      |   10.104|
+btn<1>         |a_to_g<5>      |   10.438|
+btn<1>         |a_to_g<6>      |   11.947|
+btn<2>         |a_to_g<0>      |   10.716|
+btn<2>         |a_to_g<1>      |   11.068|
+btn<2>         |a_to_g<2>      |   10.931|
+btn<2>         |a_to_g<3>      |   10.072|
+btn<2>         |a_to_g<4>      |   10.298|
+btn<2>         |a_to_g<5>      |   10.511|
+btn<2>         |a_to_g<6>      |   11.500|
+sw<0>          |a_to_g<0>      |   11.508|
+sw<0>          |a_to_g<1>      |   11.131|
+sw<0>          |a_to_g<2>      |   10.594|
+sw<0>          |a_to_g<3>      |   10.779|
+sw<0>          |a_to_g<4>      |   10.567|
+sw<0>          |a_to_g<5>      |   10.859|
+sw<0>          |a_to_g<6>      |   11.569|
+sw<0>          |an<2>          |   10.070|
+sw<1>          |a_to_g<0>      |   11.064|
+sw<1>          |a_to_g<1>      |   10.899|
+sw<1>          |a_to_g<2>      |   10.670|
+sw<1>          |a_to_g<3>      |   10.350|
+sw<1>          |a_to_g<4>      |   10.047|
+sw<1>          |a_to_g<5>      |   10.459|
+sw<1>          |a_to_g<6>      |   11.246|
+sw<1>          |an<2>          |    9.620|
+sw<2>          |a_to_g<0>      |   11.345|
+sw<2>          |a_to_g<1>      |   11.531|
+sw<2>          |a_to_g<2>      |   11.656|
+sw<2>          |a_to_g<3>      |   10.707|
+sw<2>          |a_to_g<4>      |   10.050|
+sw<2>          |a_to_g<5>      |   10.384|
+sw<2>          |a_to_g<6>      |   11.893|
+sw<2>          |an<2>          |    9.760|
+sw<3>          |a_to_g<0>      |   11.088|
+sw<3>          |a_to_g<1>      |   11.440|
+sw<3>          |a_to_g<2>      |   11.303|
+sw<3>          |a_to_g<3>      |   10.444|
+sw<3>          |a_to_g<4>      |   10.670|
+sw<3>          |a_to_g<5>      |   10.883|
+sw<3>          |a_to_g<6>      |   11.872|
+sw<3>          |an<2>          |    9.686|
+sw<4>          |a_to_g<0>      |   10.426|
+sw<4>          |a_to_g<1>      |   10.049|
+sw<4>          |a_to_g<2>      |    9.512|
+sw<4>          |a_to_g<3>      |    9.697|
+sw<4>          |a_to_g<4>      |    9.485|
+sw<4>          |a_to_g<5>      |    9.777|
+sw<4>          |a_to_g<6>      |   10.487|
+sw<4>          |an<2>          |   10.086|
+sw<4>          |an<3>          |    9.633|
+sw<5>          |a_to_g<0>      |   10.703|
+sw<5>          |a_to_g<1>      |   10.538|
+sw<5>          |a_to_g<2>      |   10.309|
+sw<5>          |a_to_g<3>      |    9.989|
+sw<5>          |a_to_g<4>      |    9.686|
+sw<5>          |a_to_g<5>      |   10.098|
+sw<5>          |a_to_g<6>      |   10.885|
+sw<5>          |an<2>          |   10.024|
+sw<5>          |an<3>          |    9.768|
+sw<6>          |a_to_g<0>      |   10.361|
+sw<6>          |a_to_g<1>      |   10.547|
+sw<6>          |a_to_g<2>      |   10.672|
+sw<6>          |a_to_g<3>      |    9.723|
+sw<6>          |a_to_g<4>      |    9.066|
+sw<6>          |a_to_g<5>      |    9.400|
+sw<6>          |a_to_g<6>      |   10.909|
+sw<6>          |an<2>          |   10.242|
+sw<6>          |an<3>          |    9.828|
+sw<7>          |a_to_g<0>      |   10.272|
+sw<7>          |a_to_g<1>      |   10.624|
+sw<7>          |a_to_g<2>      |   10.487|
+sw<7>          |a_to_g<3>      |    9.628|
+sw<7>          |a_to_g<4>      |    9.854|
+sw<7>          |a_to_g<5>      |   10.067|
+sw<7>          |a_to_g<6>      |   11.056|
+sw<7>          |an<2>          |   10.051|
+sw<7>          |an<3>          |    9.418|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May 20 10:27:15 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4475 MB
+
+
+

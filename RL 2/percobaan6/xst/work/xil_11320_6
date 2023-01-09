@@ -1,0 +1,4 @@
+V3 3
+EN work/Mux21a 0 FL E:/Tugas/MUX21/mux21a.vhd PB ieee/std_logic_1164 1364358218
+AR work/Mux21a/Behavioral 0 \
+      FL E:/Tugas/MUX21/mux21a.vhd EN work/Mux21a 0

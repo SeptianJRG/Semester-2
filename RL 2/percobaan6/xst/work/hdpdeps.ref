@@ -1,0 +1,16 @@
+V3 11
+FL "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.vhd" 2022/05/13.10:04:44 P.58f
+EN work/mux21a 1652411092 FL "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux21a/Behavioral 1652411093 \
+      FL "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.vhd" EN work/mux21a 1652411092
+FL E:/Tugas/MUX21/mux21a.vhd 2022/05/13.08:59:51 P.58f
+FL E:/Tugas/MUX21/mux21b.vhd 2022/05/13.09:12:14 P.58f
+EN work/mux21b 1652409598 FL E:/Tugas/MUX21/mux21b.vhd PB ieee/std_logic_1164 1364358218
+AR work/mux21b/Behavioral 1652409599 \
+      FL E:/Tugas/MUX21/mux21b.vhd EN work/mux21b 1652409598
+FL E:/Tugas/MUX21/mux21top.vhd 2022/05/13.09:14:46 P.58f
+EN work/mux21top 1652409600 FL E:/Tugas/MUX21/mux21top.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/mux21top/Behavioral 1652409601 \
+      FL E:/Tugas/MUX21/mux21top.vhd EN work/mux21top 1652409600 CP mux21b

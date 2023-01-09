@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.58f on Fri Jun 10 09:26:58 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "siren" LOCATE = SITE "K12" LEVEL 1;
+COMP "sensors" LOCATE = SITE "L13" LEVEL 1;
+COMP "remote" LOCATE = SITE "M13" LEVEL 1;
+COMP "rst" LOCATE = SITE "M14" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

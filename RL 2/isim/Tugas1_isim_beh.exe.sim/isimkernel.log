@@ -1,0 +1,29 @@
+Command line:
+   Tugas1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49495
+
+Fri Mar 04 10:53:14 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 4986.81 Meg
+
+ Total Signals          : 7
+ Total Nets             : 7
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+Total Line Count : 5
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5301.38 Meg
+
+Fri Mar 04 10:53:58 2022
+

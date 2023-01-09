@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/SMT 2/RL 2/Tugas1_isim_beh.exe" -prj "D:/SMT 2/RL 2/Tugas1_beh.prj" "work.Tugas1" 

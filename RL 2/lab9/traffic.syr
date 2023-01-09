@@ -1,0 +1,489 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: traffic.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "traffic.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "traffic"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : traffic
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" in Library work.
+Architecture behavioral of Entity clkdiv is up to date.
+Compiling vhdl file "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" in Library work.
+Architecture x7seg of Entity x7segb is up to date.
+Compiling vhdl file "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" in Library work.
+Entity <traffic> compiled.
+Entity <traffic> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <traffic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdiv> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <x7segb> in library <work> (architecture <x7seg>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <traffic> in library <work> (Architecture <behavioral>).
+Entity <traffic> analyzed. Unit <traffic> generated.
+
+Analyzing Entity <clkdiv> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" line 14: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <q>
+Entity <clkdiv> analyzed. Unit <clkdiv> generated.
+
+Analyzing Entity <x7segb> in library <work> (Architecture <x7seg>).
+WARNING:Xst:790 - "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" line 48: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" line 48: Index value(s) does not match array range, simulation mismatch.
+Entity <x7segb> analyzed. Unit <x7segb> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clkdiv>.
+    Related source file is "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd".
+    Found 24-bit up counter for signal <q>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clkdiv> synthesized.
+
+
+Synthesizing Unit <x7segb>.
+    Related source file is "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd".
+WARNING:Xst:646 - Signal <aen> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 21-bit up counter for signal <clkdiv>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <x7segb> synthesized.
+
+
+Synthesizing Unit <traffic>.
+    Related source file is "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk48                     (rising_edge)        |
+    | Reset              | clr                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 6-bit latch for signal <x>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 4-bit register for signal <count>.
+    Found 4-bit adder for signal <count$share0000> created at line 63.
+    Found 4-bit comparator less for signal <state$cmp_lt0000> created at line 64.
+    Found 4-bit comparator less for signal <state$cmp_lt0001> created at line 71.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <traffic> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 21-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 1
+ 4-bit register                                        : 1
+# Latches                                              : 1
+ 6-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 000
+ s1    | 001
+ s2    | 011
+ s3    | 010
+ s4    | 110
+ s5    | 111
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 21-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+# Latches                                              : 1
+ 6-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <u1/q_23> of sequential type is unconnected in block <traffic>.
+
+Optimizing unit <traffic> ...
+WARNING:Xst:1294 - Latch <x_0> is equivalent to a wire in block <traffic>.
+WARNING:Xst:1294 - Latch <x_1> is equivalent to a wire in block <traffic>.
+WARNING:Xst:1294 - Latch <x_2> is equivalent to a wire in block <traffic>.
+WARNING:Xst:1294 - Latch <x_3> is equivalent to a wire in block <traffic>.
+WARNING:Xst:1294 - Latch <x_4> is equivalent to a wire in block <traffic>.
+WARNING:Xst:1294 - Latch <x_5> is equivalent to a wire in block <traffic>.
+
+Optimizing unit <x7segb> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block traffic, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 51
+ Flip-Flops                                            : 51
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : traffic.ngr
+Top Level Output File Name         : traffic
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 162
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 42
+#      LUT2                        : 9
+#      LUT2_L                      : 1
+#      LUT3                        : 4
+#      LUT3_D                      : 2
+#      LUT4                        : 10
+#      LUT4_L                      : 2
+#      MUXCY                       : 42
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 44
+# FlipFlops/Latches                : 51
+#      FDC                         : 51
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                       38  out of   1920     1%  
+ Number of Slice Flip Flops:             51  out of   3840     1%  
+ Number of 4 input LUTs:                 72  out of   3840     1%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    173     8%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+u1/q_221                           | BUFG                   | 28    |
+clk                                | BUFGP                  | 23    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+clr                                | IBUF                   | 51    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.298ns (Maximum Frequency: 188.751MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 10.430ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u1/q_221'
+  Clock period: 5.184ns (frequency: 192.901MHz)
+  Total number of paths / destination ports: 289 / 28
+-------------------------------------------------------------------------
+Delay:               5.184ns (Levels of Logic = 3)
+  Source:            count_1 (FF)
+  Destination:       state_FSM_FFd3 (FF)
+  Source Clock:      u1/q_221 rising
+  Destination Clock: u1/q_221 rising
+
+  Data Path: count_1 to state_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.720   1.342  count_1 (count_1)
+     LUT3:I0->O            1   0.551   0.827  state_FSM_FFd3-In31_SW0 (N28)
+     LUT4_L:I3->LO         1   0.551   0.439  state_FSM_FFd3-In31 (state_FSM_FFd3-In31)
+     LUT2:I0->O            1   0.551   0.000  state_FSM_FFd3-In51 (state_FSM_FFd3-In)
+     FDC:D                     0.203          state_FSM_FFd3
+    ----------------------------------------
+    Total                      5.184ns (2.576ns logic, 2.608ns route)
+                                       (49.7% logic, 50.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.298ns (frequency: 188.751MHz)
+  Total number of paths / destination ports: 276 / 23
+-------------------------------------------------------------------------
+Delay:               5.298ns (Levels of Logic = 23)
+  Source:            u1/q_1 (FF)
+  Destination:       u1/q_22 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u1/q_1 to u1/q_22
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.720   1.140  u1/q_1 (u1/q_1)
+     LUT1:I0->O            1   0.551   0.000  u1/Mcount_q_cy<1>_rt (u1/Mcount_q_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  u1/Mcount_q_cy<1> (u1/Mcount_q_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<2> (u1/Mcount_q_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<3> (u1/Mcount_q_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<4> (u1/Mcount_q_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<5> (u1/Mcount_q_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<6> (u1/Mcount_q_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<7> (u1/Mcount_q_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<8> (u1/Mcount_q_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<9> (u1/Mcount_q_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<10> (u1/Mcount_q_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<11> (u1/Mcount_q_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<12> (u1/Mcount_q_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<13> (u1/Mcount_q_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<14> (u1/Mcount_q_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<15> (u1/Mcount_q_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<16> (u1/Mcount_q_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<17> (u1/Mcount_q_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<18> (u1/Mcount_q_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<19> (u1/Mcount_q_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  u1/Mcount_q_cy<20> (u1/Mcount_q_cy<20>)
+     MUXCY:CI->O           0   0.064   0.000  u1/Mcount_q_cy<21> (u1/Mcount_q_cy<21>)
+     XORCY:CI->O           1   0.904   0.000  u1/Mcount_q_xor<22> (Result<22>)
+     FDC:D                     0.203          u1/q_22
+    ----------------------------------------
+    Total                      5.298ns (4.158ns logic, 1.140ns route)
+                                       (78.5% logic, 21.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u1/q_221'
+  Total number of paths / destination ports: 34 / 11
+-------------------------------------------------------------------------
+Offset:              10.430ns (Levels of Logic = 3)
+  Source:            u2/clkdiv_19 (FF)
+  Destination:       a_to_g<1> (PAD)
+  Source Clock:      u1/q_221 rising
+
+  Data Path: u2/clkdiv_19 to a_to_g<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.720   1.260  u2/clkdiv_19 (u2/clkdiv_19)
+     LUT2:I0->O            2   0.551   0.903  u2/a_to_g_cmp_eq0001_SW2 (N30)
+     LUT4:I3->O            1   0.551   0.801  u2/a_to_g_cmp_eq0001 (a_to_g_1_OBUF)
+     OBUF:I->O                 5.644          a_to_g_1_OBUF (a_to_g<1>)
+    ----------------------------------------
+    Total                     10.430ns (7.466ns logic, 2.964ns route)
+                                       (71.6% logic, 28.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.79 secs
+ 
+--> 
+
+Total memory usage is 4497896 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

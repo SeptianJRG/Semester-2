@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.58f on Fri May 20 12:26:04 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "G14" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "F14" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "E13" LEVEL 1;
+COMP "a_to_g<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "dp" LOCATE = SITE "P16" LEVEL 1;
+COMP "a_to_g<1>" LOCATE = SITE "F13" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "a_to_g<2>" LOCATE = SITE "R16" LEVEL 1;
+COMP "a_to_g<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "a_to_g<4>" LOCATE = SITE "N15" LEVEL 1;
+COMP "a_to_g<5>" LOCATE = SITE "G13" LEVEL 1;
+COMP "a_to_g<6>" LOCATE = SITE "E14" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "G12" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "H14" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "H13" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

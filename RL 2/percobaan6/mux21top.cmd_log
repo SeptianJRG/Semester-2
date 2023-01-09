@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21top.xst" -ofn "E:/Tugas/MUX21/mux21top.syr" 
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21top.xst" -ofn "E:/Tugas/MUX21/mux21top.syr" 
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21top.xst" -ofn "E:/Tugas/MUX21/mux21top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Muxpin.ucf -p xc3s200-ft256-4 mux21top.ngc mux21top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Muxpin.ucf -p xc3s200-ft256-4 mux21top.ngc mux21top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Muxpin.ucf -p xc3s200-ft256-4 mux21top.ngc mux21top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21top_map.ncd mux21top.ngd mux21top.pcf 
+par -w -intstyle ise -ol high -t 1 mux21top_map.ncd mux21top.ncd mux21top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21top.twx mux21top.ncd -o mux21top.twr mux21top.pcf -ucf Muxpin.ucf 
+bitgen -intstyle ise -f mux21top.ut mux21top.ncd 

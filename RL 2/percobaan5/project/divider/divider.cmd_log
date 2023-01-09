@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "divider.ngc" divider.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+bitgen -intstyle ise -f divider.ut divider.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divider.ucf -p xc3s200-ft256-4 "divider.ngc" divider.ngd  
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan5/project/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divider.ucf -p xc3s200-ft256-4 "divider.ngc" divider.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf -ucf divider.ucf 
+bitgen -intstyle ise -f divider.ut divider.ncd 

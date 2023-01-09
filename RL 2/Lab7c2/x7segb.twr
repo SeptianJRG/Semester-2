@@ -1,0 +1,221 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\XILINX\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml x7segb.twx x7segb.ncd -o x7segb.twr x7segb.pcf
+
+Design file:              x7segb.ncd
+Physical constraint file: x7segb.pcf
+Device,package,speed:     xc3s200,ft256,-4 (PRODUCTION 1.39 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+a_to_g<0>   |   12.058(R)|clk_BUFGP         |   0.000|
+a_to_g<1>   |   13.334(R)|clk_BUFGP         |   0.000|
+a_to_g<2>   |   13.738(R)|clk_BUFGP         |   0.000|
+a_to_g<3>   |   13.450(R)|clk_BUFGP         |   0.000|
+a_to_g<4>   |   12.825(R)|clk_BUFGP         |   0.000|
+a_to_g<5>   |   13.769(R)|clk_BUFGP         |   0.000|
+a_to_g<6>   |   12.876(R)|clk_BUFGP         |   0.000|
+an<0>       |   10.999(R)|clk_BUFGP         |   0.000|
+an<1>       |    9.596(R)|clk_BUFGP         |   0.000|
+an<2>       |   11.242(R)|clk_BUFGP         |   0.000|
+an<3>       |   11.400(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.351|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+x<0>           |a_to_g<0>      |   10.217|
+x<0>           |a_to_g<1>      |   10.836|
+x<0>           |a_to_g<2>      |   10.927|
+x<0>           |a_to_g<3>      |   10.519|
+x<0>           |a_to_g<4>      |   10.933|
+x<0>           |a_to_g<5>      |   11.186|
+x<0>           |a_to_g<6>      |   10.998|
+x<1>           |a_to_g<0>      |    9.832|
+x<1>           |a_to_g<1>      |   10.475|
+x<1>           |a_to_g<2>      |   10.542|
+x<1>           |a_to_g<3>      |   10.176|
+x<1>           |a_to_g<4>      |   10.572|
+x<1>           |a_to_g<5>      |   10.916|
+x<1>           |a_to_g<6>      |   10.655|
+x<2>           |a_to_g<0>      |    9.854|
+x<2>           |a_to_g<1>      |   10.033|
+x<2>           |a_to_g<2>      |   11.159|
+x<2>           |a_to_g<3>      |   10.672|
+x<2>           |a_to_g<4>      |   10.725|
+x<2>           |a_to_g<5>      |   10.398|
+x<2>           |a_to_g<6>      |   10.556|
+x<3>           |a_to_g<0>      |    9.086|
+x<3>           |a_to_g<1>      |   10.445|
+x<3>           |a_to_g<2>      |   10.849|
+x<3>           |a_to_g<3>      |   10.561|
+x<3>           |a_to_g<4>      |    9.489|
+x<3>           |a_to_g<5>      |   10.880|
+x<3>           |a_to_g<6>      |    9.987|
+x<4>           |a_to_g<0>      |    9.959|
+x<4>           |a_to_g<1>      |   10.578|
+x<4>           |a_to_g<2>      |   10.669|
+x<4>           |a_to_g<3>      |   10.261|
+x<4>           |a_to_g<4>      |   10.675|
+x<4>           |a_to_g<5>      |   10.928|
+x<4>           |a_to_g<6>      |   10.740|
+x<4>           |an<1>          |    8.491|
+x<5>           |a_to_g<0>      |    9.899|
+x<5>           |a_to_g<1>      |   10.542|
+x<5>           |a_to_g<2>      |   10.609|
+x<5>           |a_to_g<3>      |   10.243|
+x<5>           |a_to_g<4>      |   10.639|
+x<5>           |a_to_g<5>      |   10.983|
+x<5>           |a_to_g<6>      |   10.722|
+x<5>           |an<1>          |    8.449|
+x<6>           |a_to_g<0>      |    9.617|
+x<6>           |a_to_g<1>      |    9.796|
+x<6>           |a_to_g<2>      |   10.922|
+x<6>           |a_to_g<3>      |   10.435|
+x<6>           |a_to_g<4>      |   10.488|
+x<6>           |a_to_g<5>      |   10.161|
+x<6>           |a_to_g<6>      |   10.319|
+x<6>           |an<1>          |    8.212|
+x<7>           |a_to_g<0>      |    9.327|
+x<7>           |a_to_g<1>      |   10.686|
+x<7>           |a_to_g<2>      |   11.090|
+x<7>           |a_to_g<3>      |   10.802|
+x<7>           |a_to_g<4>      |    9.730|
+x<7>           |a_to_g<5>      |   11.121|
+x<7>           |a_to_g<6>      |   10.228|
+x<7>           |an<1>          |    7.536|
+x<8>           |a_to_g<0>      |    9.956|
+x<8>           |a_to_g<1>      |   10.575|
+x<8>           |a_to_g<2>      |   10.666|
+x<8>           |a_to_g<3>      |   10.258|
+x<8>           |a_to_g<4>      |   10.672|
+x<8>           |a_to_g<5>      |   10.925|
+x<8>           |a_to_g<6>      |   10.737|
+x<8>           |an<1>          |   10.076|
+x<8>           |an<2>          |   10.177|
+x<9>           |a_to_g<0>      |   10.021|
+x<9>           |a_to_g<1>      |   10.664|
+x<9>           |a_to_g<2>      |   10.731|
+x<9>           |a_to_g<3>      |   10.365|
+x<9>           |a_to_g<4>      |   10.761|
+x<9>           |a_to_g<5>      |   11.105|
+x<9>           |a_to_g<6>      |   10.844|
+x<9>           |an<1>          |   10.495|
+x<9>           |an<2>          |   10.596|
+x<10>          |a_to_g<0>      |    9.266|
+x<10>          |a_to_g<1>      |    9.445|
+x<10>          |a_to_g<2>      |   10.571|
+x<10>          |a_to_g<3>      |   10.084|
+x<10>          |a_to_g<4>      |   10.137|
+x<10>          |a_to_g<5>      |    9.810|
+x<10>          |a_to_g<6>      |    9.968|
+x<10>          |an<1>          |    9.833|
+x<10>          |an<2>          |    9.934|
+x<11>          |a_to_g<0>      |    9.161|
+x<11>          |a_to_g<1>      |   10.520|
+x<11>          |a_to_g<2>      |   10.924|
+x<11>          |a_to_g<3>      |   10.636|
+x<11>          |a_to_g<4>      |    9.564|
+x<11>          |a_to_g<5>      |   10.955|
+x<11>          |a_to_g<6>      |   10.062|
+x<11>          |an<1>          |    9.701|
+x<11>          |an<2>          |    9.802|
+x<12>          |a_to_g<0>      |    9.870|
+x<12>          |a_to_g<1>      |   10.489|
+x<12>          |a_to_g<2>      |   10.580|
+x<12>          |a_to_g<3>      |   10.172|
+x<12>          |a_to_g<4>      |   10.586|
+x<12>          |a_to_g<5>      |   10.839|
+x<12>          |a_to_g<6>      |   10.651|
+x<12>          |an<1>          |   12.088|
+x<12>          |an<2>          |   12.189|
+x<12>          |an<3>          |   10.939|
+x<13>          |a_to_g<0>      |    9.475|
+x<13>          |a_to_g<1>      |   10.118|
+x<13>          |a_to_g<2>      |   10.185|
+x<13>          |a_to_g<3>      |    9.819|
+x<13>          |a_to_g<4>      |   10.215|
+x<13>          |a_to_g<5>      |   10.559|
+x<13>          |a_to_g<6>      |   10.298|
+x<13>          |an<1>          |   11.080|
+x<13>          |an<2>          |   11.181|
+x<13>          |an<3>          |    9.931|
+x<14>          |a_to_g<0>      |    9.497|
+x<14>          |a_to_g<1>      |    9.676|
+x<14>          |a_to_g<2>      |   10.802|
+x<14>          |a_to_g<3>      |   10.315|
+x<14>          |a_to_g<4>      |   10.368|
+x<14>          |a_to_g<5>      |   10.041|
+x<14>          |a_to_g<6>      |   10.199|
+x<14>          |an<1>          |   10.900|
+x<14>          |an<2>          |   11.001|
+x<14>          |an<3>          |    9.751|
+x<15>          |a_to_g<0>      |    9.170|
+x<15>          |a_to_g<1>      |   10.529|
+x<15>          |a_to_g<2>      |   10.933|
+x<15>          |a_to_g<3>      |   10.645|
+x<15>          |a_to_g<4>      |    9.573|
+x<15>          |a_to_g<5>      |   10.964|
+x<15>          |a_to_g<6>      |   10.071|
+x<15>          |an<1>          |   10.679|
+x<15>          |an<2>          |   10.780|
+x<15>          |an<3>          |    9.530|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May 20 09:22:09 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

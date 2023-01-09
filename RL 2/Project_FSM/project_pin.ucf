@@ -1,0 +1,5 @@
+NET remote LOC = M13;
+NET rst LOC = M14;
+NET sensors LOC = L13;
+
+NET siren LOC = K12;

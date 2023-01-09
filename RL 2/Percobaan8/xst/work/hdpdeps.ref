@@ -1,0 +1,28 @@
+V3 19
+FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/binBCD14.vhd" 2022/05/27.09:04:56 P.58f
+EN work/binBCD14 1653623899 FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/binBCD14.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/binBCD14/Behavioral 1653623900 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/binBCD14.vhd" EN work/binBCD14 1653623899
+FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/clkdiv.vhd" 2022/05/27.09:14:16 P.58f
+EN work/clkdiv 1653623895 FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/clkdiv.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/clkdiv/Behavioral 1653623896 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/clkdiv.vhd" EN work/clkdiv 1653623895
+FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.vhd" 2022/05/27.10:58:08 P.58f
+EN work/mod10kcnt 1653623897 FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/mod10kcnt/Behavioral 1653623898 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/mod10kcnt.vhd" EN work/mod10kcnt 1653623897
+FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/Mod10kcnt_top.vhd" 2022/05/27.10:19:14 P.58f
+EN work/mod10kcnt_top 1653623903 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/Mod10kcnt_top.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mod10kcnt_top/Behavioral 1653623904 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/Mod10kcnt_top.vhd" \
+      EN work/mod10kcnt_top 1653623903 CP clkdiv CP mod10kcnt CP binBCD14 CP x7segbc
+FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/x7segbc.vhd" 2022/05/27.09:03:29 P.58f
+EN work/x7segbc 1653623901 FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/x7segbc.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/x7segbc/Behavioral 1653623902 \
+      FL "D:/Kuliah/SMT 2/RL 2/Percobaan8/x7segbc.vhd" EN work/x7segbc 1653623901

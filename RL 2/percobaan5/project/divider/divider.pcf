@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.58f on Fri Apr 22 10:47:50 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "numer<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "numer<1>" LOCATE = SITE "G12" LEVEL 1;
+COMP "numer<2>" LOCATE = SITE "H14" LEVEL 1;
+COMP "numer<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "numer<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "numer<5>" LOCATE = SITE "J13" LEVEL 1;
+COMP "numer<6>" LOCATE = SITE "K14" LEVEL 1;
+COMP "numer<7>" LOCATE = SITE "K13" LEVEL 1;
+COMP "quotient<0>" LOCATE = SITE "K12" LEVEL 1;
+COMP "quotient<1>" LOCATE = SITE "P14" LEVEL 1;
+COMP "quotient<2>" LOCATE = SITE "L12" LEVEL 1;
+COMP "quotient<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "remainder<0>" LOCATE = SITE "P13" LEVEL 1;
+COMP "remainder<1>" LOCATE = SITE "N12" LEVEL 1;
+COMP "remainder<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "remainder<3>" LOCATE = SITE "P11" LEVEL 1;
+COMP "denom<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "denom<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "denom<2>" LOCATE = SITE "L13" LEVEL 1;
+COMP "denom<3>" LOCATE = SITE "L14" LEVEL 1;
+SCHEMATIC END;
+

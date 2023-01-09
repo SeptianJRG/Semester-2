@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri May 20 09:47:00 2022
+
+drc -z x7seg_top.ncd x7seg_top.pcf
+
+DRC detected 0 errors and 0 warnings.

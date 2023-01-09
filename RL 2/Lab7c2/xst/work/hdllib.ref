@@ -1,0 +1,4 @@
+AR x7segb x7seg "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb.vhd" sub00/vhpl01 1653017190
+EN x7segb_top NULL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb_top.vhd" sub00/vhpl02 1653017191
+AR x7segb_top x7seg_top "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb_top.vhd" sub00/vhpl03 1653017192
+EN x7segb NULL "D:/Kuliah/SMT 2/RL 2/Lab7c2/x7segb.vhd" sub00/vhpl00 1653017189

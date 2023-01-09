@@ -1,0 +1,6 @@
+AR clkdiv behavioral "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" sub00/vhpl03 1654227126
+AR traffic behavioral "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" sub00/vhpl01 1654227130
+AR x7segb x7seg "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" sub00/vhpl05 1654227128
+EN clkdiv NULL "D:/Kuliah/SMT 2/RL 2/lab9/clkdiv.vhd" sub00/vhpl02 1654227125
+EN traffic NULL "D:/Kuliah/SMT 2/RL 2/lab9/traffic.vhd" sub00/vhpl00 1654227129
+EN x7segb NULL "D:/Kuliah/SMT 2/RL 2/lab9/x7segb.vhd" sub00/vhpl04 1654227127

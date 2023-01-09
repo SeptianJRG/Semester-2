@@ -1,0 +1,10 @@
+V3 6
+FL "D:/Kuliah/SMT 2/RL 2/perobaan.vhd" 2022/04/22.08:45:26 P.58f
+EN work/main 1650591935 FL "D:/Kuliah/SMT 2/RL 2/perobaan.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/main/Behavioral 1650591936 \
+      FL "D:/Kuliah/SMT 2/RL 2/perobaan.vhd" EN work/main 1650591935
+FL "D:/SMT 2/RL 2/Tugas1.vhd" 2022/03/04.22:53:50 P.58f
+EN work/Tugas1 1646566307 FL "D:/SMT 2/RL 2/Tugas1.vhd" PB ieee/std_logic_1164 1364358218
+AR work/Tugas1/Behavioral 1646566308 \
+      FL "D:/SMT 2/RL 2/Tugas1.vhd" EN work/Tugas1 1646566307

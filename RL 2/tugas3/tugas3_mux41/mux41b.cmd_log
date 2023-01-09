@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41b.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41b.syr" 
+xst -intstyle ise -ifn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41b.xst" -ofn "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/tugas3_mux41/mux41b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "mux41b.ngc" mux41b.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux41b_map.ncd mux41b.ngd mux41b.pcf 
+par -w -intstyle ise -ol high -t 1 mux41b_map.ncd mux41b.ncd mux41b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux41b.twx mux41b.ncd -o mux41b.twr mux41b.pcf 
+bitgen -intstyle ise -f mux41b.ut mux41b.ncd 

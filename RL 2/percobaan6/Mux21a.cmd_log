@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "E:/Tugas/MUX21/Mux21a.xst" -ofn "E:/Tugas/MUX21/Mux21a.syr" 
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21a.xst" -ofn "E:/Tugas/MUX21/mux21a.syr" 
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21a.xst" -ofn "E:/Tugas/MUX21/mux21a.syr" 
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21a.xst" -ofn "E:/Tugas/MUX21/mux21a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 mux21a.ngc mux21a.ngd  
+xst -intstyle ise -ifn "E:/Tugas/MUX21/mux21a.xst" -ofn "E:/Tugas/MUX21/mux21a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 mux21a.ngc mux21a.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21a_map.ncd mux21a.ngd mux21a.pcf 
+par -w -intstyle ise -ol high -t 1 mux21a_map.ncd mux21a.ncd mux21a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21a.twx mux21a.ncd -o mux21a.twr mux21a.pcf 
+bitgen -intstyle ise -f mux21a.ut mux21a.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "mux21a.ngc" mux21a.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21a_map.ncd mux21a.ngd mux21a.pcf 
+par -w -intstyle ise -ol high -t 1 mux21a_map.ncd mux21a.ncd mux21a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21a.twx mux21a.ncd -o mux21a.twr mux21a.pcf 
+bitgen -intstyle ise -f mux21a.ut mux21a.ncd 
+xst -intstyle ise -ifn "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.xst" -ofn "D:/Kuliah/SMT 2/RL 2/percobaan6/mux21a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21a_pin.ucf -p xc3s200-ft256-4 "mux21a.ngc" mux21a.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mux21a_map.ncd mux21a.ngd mux21a.pcf 
+par -w -intstyle ise -ol high -t 1 mux21a_map.ncd mux21a.ncd mux21a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux21a.twx mux21a.ncd -o mux21a.twr mux21a.pcf -ucf mux21a_pin.ucf 
+bitgen -intstyle ise -f mux21a.ut mux21a.ncd 

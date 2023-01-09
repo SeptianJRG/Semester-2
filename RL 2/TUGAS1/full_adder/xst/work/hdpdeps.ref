@@ -1,0 +1,14 @@
+V3 9
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_1.vhd" 2022/05/13.08:36:33 P.58f
+EN work/FA_1 1652413715 FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/FA_1/Behavioral 1652413716 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_1.vhd" EN work/FA_1 1652413715
+FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.vhd" 2022/05/13.10:48:23 P.58f
+EN work/FA_4 1652413717 FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/FA_4/Behavioral 1652413718 \
+      FL "D:/Kuliah/SMT 2/RL 2/TUGAS1/full_adder/FA_4.vhd" EN work/FA_4 1652413717 \
+      CP FA_1
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/full_adder/FA_1.vhd" 2022/05/13.08:36:33 P.58f
+FL "E:/PENS/CE B 2021/Semester 2/Rangkaian Logika 2/Praktikum/6. Structural/project/full_adder/FA_4.vhd" 2022/05/13.08:48:55 P.58f
